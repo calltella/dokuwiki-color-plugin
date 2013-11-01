@@ -67,7 +67,7 @@ class syntax_plugin_color extends DokuWiki_Syntax_Plugin {
                 list($color, $background) = $match;
                 $color = $color?"color:$color;":"";
                 $background = $background?"background-color:$background;":"";
-                $renderer->doc .= "<span style='$color $background'>";
+                $renderer->doc .= '<span class="color-plugin" style="'.$color.' '.$background.'">';
                 break;
                 
               case DOKU_LEXER_UNMATCHED :  $renderer->doc .= $renderer->_xmlEntities($match); break;
