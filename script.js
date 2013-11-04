@@ -1,9 +1,7 @@
 /**
  *  Color Plugin Extend Script
  *
- *  
- *  
- *  
+ *  @author Yuichi Asa <yuichi.asa@gmail.com>
  *  
  */
 
